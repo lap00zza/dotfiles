@@ -1,0 +1,19 @@
+{
+    "window.menuBarVisibility": "default",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.fontSize": 12,
+    "editor.rulers": [
+        100
+    ],
+    "C_Cpp.intelliSenseEngine": "Default",
+    "workbench.colorTheme": "One Dark Pro",
+    "telemetry.enableTelemetry": false,
+    "workbench.panel.location": "bottom"
+}
