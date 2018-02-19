@@ -1,7 +1,7 @@
 {
     "window.menuBarVisibility": "default",
-    "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 12,
+    "editor.fontFamily": "Operator Mono Lig",
+    "editor.fontSize": 12.5,
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "none",
     "workbench.iconTheme": "vscode-icons",
@@ -13,7 +13,24 @@
         100
     ],
     "C_Cpp.intelliSenseEngine": "Default",
-    "workbench.colorTheme": "One Dark Pro",
     "telemetry.enableTelemetry": false,
-    "workbench.panel.location": "bottom"
+    "workbench.panel.location": "bottom",
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#388E3C",
+        "list.activeSelectionForeground": "#388E3C",
+        "list.inactiveSelectionForeground": "#388E3C",
+        "list.highlightForeground": "#388E3C",
+        "scrollbarSlider.activeBackground": "#388E3C50",
+        "editorSuggestWidget.highlightForeground": "#388E3C",
+        "textLink.foreground": "#388E3C",
+        "progressBar.background": "#388E3C",
+        "pickerGroup.foreground": "#388E3C",
+        "tab.activeBorder": "#388E3C"
+    },
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Darker",
+        "accent": "Breaking Bad",
+        "accentPrevious": "Purple"
+    },
+    "workbench.colorTheme": "One Dark Pro Vivid"
 }
