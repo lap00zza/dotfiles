@@ -1,0 +1,14 @@
+Font=Hack NF
+FontWeight=400
+Term=xterm-256color
+ThemeFile=flat-ui
+FontSmoothing=full
+FontHeight=10
+BoldAsFont=yes
+AllowBlinking=yes
+Transparency=low
+CursorType=block
+BellType=0
+Columns=100
+Rows=40
+Padding=5

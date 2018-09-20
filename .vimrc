@@ -8,24 +8,39 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" -- My own plugins go here --
-Plugin 'tpope/vim-fugitive'
+" plugin on GitHub repo
 Plugin 'scrooloose/nerdtree'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
+" NOTE: nerdtree-git causes a lot of leading whitespace when
+" used with vim-devicons.
+" Plugin 'Xuyuanp/nerdtree-git-plugin'
+" Plugin 'itchyny/lightline.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'altercation/vim-colors-solarized'
-" --
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'liuchengxu/space-vim-dark'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Put your non-Plugin stuff after this line
-let g:solarized_termcolors=256
-autocmd vimenter * NERDTree
-map <C-t> :NERDTreeToggle<CR>
-let NERDTreeShowHidden=1
+
+" === My own modifications ===
 syntax enable
-set background=dark
-" colorscheme solarized
+set encoding=utf8
+set t_Co=256
+set number " line number
+" NerdTREE
+let NERDTreeShowHidden=1
+autocmd vimenter * NERDTree
+map <F8> :NERDTreeToggle<CR>
+" Airline
+let g:airline_powerline_fonts = 1
+let g:airline_theme = "base16_seti"
+" Theme
+colorscheme space-vim-dark
+set termguicolors
+hi Normal     	ctermbg=NONE 	guibg=NONE
+hi LineNr     	ctermbg=NONE 	guibg=NONE
+hi SignColumn 	ctermbg=NONE 	guibg=NONE
+hi LineNr 	ctermbg=NONE 	guibg=NONE
+hi Comment 	guifg=#5C6370 	ctermfg=59

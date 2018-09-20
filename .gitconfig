@@ -1,0 +1,15 @@
+[user]
+	name = Jewel Mahanta
+	email = jewelmahanta@gmail.com
+	signingkey = AD9D3A7E
+[core]
+	autocrlf = true
+[commit]
+	gpgsign = true
+[credential]
+	helper = store --file ~/.git-credentials
+
+# This allows me to clone repos from github without full url 
+# example: `git pull gh:/lap00zza/dotfiles`
+[url "https://github.com/"]
+	insteadOf = "gh:"
