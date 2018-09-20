@@ -2,14 +2,12 @@
 # Find me on github(@lap00za)
 #
 # -- Notes to myself --
-# * 7zip, vlc and a few other programs  are symlinked in /usr/local/bin
-# * Haven't touched .zshrc. It is managed by oh-my-zsh
-# * This is meant to be run under cygwin (need cygpath for defender)
-#
-
+# > 7zip, vlc and a few other programs  are symlinked in /usr/local/bin
+# > Haven't touched .zshrc. It is managed by oh-my-zsh
 export GITHUB="https://github.com/@lap00zza"
 
 # ---
+# NOTE: This is meant to be run under cygwin (need cygpath for defender)
 # why alias defender? coz stupid defnder cant be symlinked in /usr/local/bin
 # Keeps throwing library error.
 alias defender="/c/Program Files/Windows Defender/MpCmdRun.exe"
@@ -21,7 +19,6 @@ defender_scan() {
 # SSH Agent Wrapper
 # This wrapper will make sure ssh-agent is used across mintty sessions.
 # NOTE: Don't mess with .ssh-agent-proc file. Its needed for persistence.
-# TODO: This function is not ready for prime time
 ssh_agent_start() {
 	if (((ps | grep "ssh-agent") && (ls -a | grep ".ssh-agent-proc")) > /dev/null 2>&1) 
 	then
