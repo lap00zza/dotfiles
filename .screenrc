@@ -1,0 +1,10 @@
+# GNU Screen configuration file
+# Author: Jewel Mahanta <jewelmahanta@gmail.com>
+
+# don't display copyright page
+startup_message off
+
+# Enable 256 color term
+term xterm-256color
+
+
