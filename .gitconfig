@@ -1,0 +1,12 @@
+[user]
+	name = Jewel Mahanta
+	email = jewelmahanta@gmail.com
+	signingkey = DC2CB7A89A8F2367
+[commit]
+	gpgsign = true
+[core]
+    editor = nano
+[safe]
+	directory = /mnt/D0C23ACBC23AB596/Projects/lap00zza.github.io(new)
+	directory = /mnt/D0C23ACBC23AB596/Projects/esp32_tutorial
+	directory = /mnt/D0C23ACBC23AB596/Projects/esp32/IR_Tutorial
