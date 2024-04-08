@@ -118,3 +118,7 @@ fi
 
 # starship.rs
 eval "$(starship init bash)"
+# RUST/CARGO
+. "$HOME/.cargo/env"
+# ALACRITTY Completions
+source ~/.bash_completion/alacritty

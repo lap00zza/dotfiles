@@ -3,3 +3,4 @@
 # doesn't source .bashrc so we do it manually here.
 source ~/.bashrc
 
+. "$HOME/.cargo/env"
