@@ -14,9 +14,5 @@ alias dsp="sudo docker system prune --all"
 # tmux aliases
 alias tma="tmux attach"
 
-# shortcuts to local directories
-alias projects="cd /mnt/D0C23ACBC23AB596/Projects/"
-
 # force tmux to output UTF-8 which fixes the powerline
 alias tmux="tmux -u"
-

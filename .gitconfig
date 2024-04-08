@@ -6,8 +6,10 @@
 	gpgsign = true
 [core]
     editor = nano
+# safe directory <https://git-scm.com/docs/git-config#Documentation/git-config.txt-safedirectory>
+# I am opting out of the safe directory check because I am the only one who works on this laptop
+# and since this is dual boot with ext4 and NTFS, it fucks up the ownsership.
+# !! THIS SHOULD NOT BE DONE ON A SHARED COMPUTER !!
 [safe]
-	directory = /mnt/D0C23ACBC23AB596/Projects/lap00zza.github.io(new)
-	directory = /mnt/D0C23ACBC23AB596/Projects/esp32_tutorial
-	directory = /mnt/D0C23ACBC23AB596/Projects/esp32/IR_Tutorial
-	directory = /mnt/D0C23ACBC23AB596/Projects/Jans-App-Server
+	directory = *
+
