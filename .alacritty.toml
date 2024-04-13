@@ -12,6 +12,7 @@ size = 10.75
 opacity = 0.9
 decorations = "Full"
 dynamic_padding = true
+startup_mode = "Maximized"
 
 #[colors]
 #draw_bold_text_with_bright_colors = true

@@ -20,5 +20,5 @@ alias tma="tmux attach"
 alias tmux="tmux -u"
 
 # ESP IDF
-alias get_idf=". $HOME/esp/v5.2.1/esp-idf/export.sh"
+# alias get_idf=". $HOME/esp/v5.2.1/esp-idf/export.sh"
 
