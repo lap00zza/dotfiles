@@ -8,13 +8,14 @@ For first time setup, remember to run `setup_symlinks.sh`
 
 ## I am using
 
-- [Alacritty](https://alacritty.org/) terminal emulator
-- [starship.rs](https://starship.rs/) (for the lovely prompt)
+- [Alacritty](https://alacritty.org/) as my terminal emulator
+- [Fish](https://fishshell.com/) as my shell
+- [starship.rs](https://starship.rs/) for the lovely prompt
 - [dracula theme](https://draculatheme.com/) (for alacritty & tmux)
-- [FiraCode](https://github.com/tonsky/FiraCode) font
-- [TMUX](https://github.com/tmux/tmux) (as my multiplexer)
+- [FiraCode](https://github.com/tonsky/FiraCode)
+- [TMUX](https://github.com/tmux/tmux)
 
-![](https://devbook.jmahanta.in/s/my_terminal.png)
+![](/setup.png)
 
 # LICENSE
 
