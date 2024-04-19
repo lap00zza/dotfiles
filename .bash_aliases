@@ -17,7 +17,7 @@ alias dsp="sudo docker system prune --all"
 # tmux aliases
 alias tma="tmux attach"
 # force tmux to output UTF-8 which fixes the powerline
-alias tmux="tmux -u"
+# alias tmux="tmux -u"
 
 # ESP IDF
 # alias get_idf=". $HOME/esp/v5.2.1/esp-idf/export.sh"

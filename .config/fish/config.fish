@@ -1,3 +1,6 @@
+# set LOCALE to contain utf-8
+set -gx LANG "en_IN.utf-8"
+
 # remove greeting
 set -U fish_greeting
 
