@@ -1,7 +1,8 @@
 configuration {
-    modi: "window,run,ssh";
+    modi: "drun,filebrowser,run,window";
 	font: "Fira Code 12";
     show-icons: true;
+    icon-theme:	"ePapirus-Dark";
   timeout {
       action: "kb-cancel";
       delay:  0;
@@ -11,5 +12,4 @@ configuration {
       sorting-method:    "name";
   }
 }
-@import "current"
-@theme "current"
+@theme "/usr/share/rofi/themes/android_notification.rasi"
