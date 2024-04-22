@@ -2,7 +2,7 @@
 
 A collection of my personal dotfiles.
 
-## I am using
+## My Setup
 
 - [Alacritty](https://alacritty.org/) as my terminal emulator
 - [Fish](https://fishshell.com/) as my shell
@@ -13,6 +13,6 @@ A collection of my personal dotfiles.
 
 ![](/devenv.png)
 
-# LICENSE
+## License
 
 Check [LICENSE.md](/LICENSE.md)
