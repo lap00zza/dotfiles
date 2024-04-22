@@ -1,6 +1,14 @@
 # set LOCALE to contain utf-8
 set -gx LANG "en_IN.utf-8"
 
+# Make FZF use FD (https://github.com/sharkdp/fd)
+set -gx FZF_DEFAULT_COMMAND "fd --type file --follow --hidden --color=always"
+set -gx FZF_DEFAULT_OPTS "--ansi"
+set -gx FZF_CTRL_T_COMMAND "$FZF_DEFAULT_COMMAND"
+#export FZF_DEFAULT_COMMAND='fd --type file --follow --hidden --color=always'
+#export FZF_DEFAULT_OPTS="--ansi"
+#export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
 # remove greeting
 set -U fish_greeting
 
