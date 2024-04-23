@@ -14,16 +14,20 @@ function devenv
     # btop minimum size 80 x 24
     tmux new-session -d -s "devenv"
     tmux selectp -t 0
+    sleep 0.1
     tmux send-keys -t "devenv" "btop" Enter
 
     tmux splitw -h -p 44
+    sleep 0.1
     tmux send-keys -t "devenv" "ping 192.168.1.1 -O" Enter
 
     tmux splitw -v -p 75
+    sleep 0.1
     tmux send-keys -t "devenv" "ls" Enter
 
     tmux selectp -t 0
     tmux splitw -v -p 24
+    sleep 0.1
     tmux send-keys -t "devenv" "python3" Enter
 
     tmux selectp -t 3
