@@ -51,6 +51,7 @@ function ghp_ssh -d "Push local changes to gh remote via SSH"
     set -l repo_url "git@github.com:$gh_username/$gh_repo"
     echo "REPO URL (SSH) => $repo_url"
     git push $repo_url
+    git pull
 end
 
 if status is-interactive
