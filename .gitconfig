@@ -12,4 +12,6 @@
 # !! THIS SHOULD NOT BE DONE ON A SHARED COMPUTER !!
 [safe]
 	directory = *
+[url "ssh://git@github.com/"]
+    insteadOf = https://github.com/
 
