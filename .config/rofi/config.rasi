@@ -1,15 +1,17 @@
 configuration {
-    modi: "drun,filebrowser,run,window";
-	font: "Fira Code 12";
+    modi: "drun,run,filebrowser";
+    font: "Fira Code 12";
     show-icons: true;
     icon-theme:	"ePapirus-Dark";
+    terminal: "alacritty";
   timeout {
-      action: "kb-cancel";
-      delay:  0;
+        action: "kb-cancel";
+        delay:  0;
   }
   filebrowser {
-      directories-first: true;
-      sorting-method:    "name";
+        directories-first: true;
+        sorting-method: "name";
+        show-hidden: true;
   }
 }
 @theme "/usr/share/rofi/themes/android_notification.rasi"
