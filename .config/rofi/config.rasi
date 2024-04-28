@@ -4,6 +4,12 @@ configuration {
     show-icons: true;
     icon-theme:	"ePapirus-Dark";
     terminal: "alacritty";
+    line-margin: 10;
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   "";
+    display-window: "";
+    display-combi:  "";
   timeout {
         action: "kb-cancel";
         delay:  0;
@@ -14,4 +20,5 @@ configuration {
         show-hidden: true;
   }
 }
-@theme "/usr/share/rofi/themes/android_notification.rasi"
+// https://github.com/undiabler/nord-rofi-theme
+@theme "/home/lap00zza/.local/share/rofi/themes/nordic.rasi"
