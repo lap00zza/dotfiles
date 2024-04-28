@@ -13,12 +13,12 @@ A collection of my personal dotfiles.
 - [TMUX](https://github.com/tmux/tmux)
 - [Rofi](https://github.com/davatorium/rofi)
 
-# Theme
+## Theme
 
 I have used (Nord Theme)[https://www.nordtheme.com/] throughout my system. The ones that could not be saved directly on the dotfiles are linked below:
 
-- Desktop: (EliverLara/Nordic)[https://github.com/EliverLara/Nordic]
-- Rofi: (undiabler/nord-rofi-theme)[https://github.com/undiabler/nord-rofi-theme]
+- Desktop: [EliverLara/Nordic](https://github.com/EliverLara/Nordic)
+- Rofi: [undiabler/nord-rofi-theme](https://github.com/undiabler/nord-rofi-theme)
 - Fish: `fish_config theme save Nord`
 
 ## License
