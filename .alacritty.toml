@@ -9,7 +9,7 @@ bold_italic = { family = "Fira Code", style = "Bold Italic" }
 size = 10.75
 
 [window]
-opacity = 0.95
+opacity = 0.9
 decorations = "Full"
 dynamic_padding = true
 startup_mode = "Maximized"

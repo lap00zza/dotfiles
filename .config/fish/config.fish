@@ -41,11 +41,13 @@ end
 if status is-interactive
     # TODO: replace these with abbr later
     source ~/.bash_aliases
-    
+
     # ESP IDF
     abbr -a get_idf . $HOME/esp/v5.2.1/esp-idf/export.fish
+
+    # starship.rs
+    starship init fish | source
+
+    # enable transient prompt    
+    enable_transience
 end
-
-# starship.rs
-starship init fish | source
-
