@@ -20,5 +20,5 @@ configuration {
         show-hidden: true;
   }
 }
-// https://github.com/undiabler/nord-rofi-theme
 @theme "/home/lap00zza/.local/share/rofi/themes/nordic.rasi"
+

@@ -23,16 +23,16 @@ function devenv -d "Launch TMUX with my preferred layout containing btop, ping, 
 
     tmux splitw -h -p 44
     sleep 0.1
-    tmux send-keys -t "devenv" "ping 192.168.1.1 -O" Enter
+    tmux send-keys -t "devenv" "gping google.com" Enter
 
     tmux splitw -v -p 75
     sleep 0.1
-    tmux send-keys -t "devenv" "ls" Enter
+    tmux send-keys -t "devenv" "cd ~/Projects" Enter
 
     tmux selectp -t 0
-    tmux splitw -v -p 24
+    tmux splitw -v -p 25
     sleep 0.1
-    tmux send-keys -t "devenv" "python3" Enter
+    tmux send-keys -t "devenv" "node" Enter
 
     tmux selectp -t 3
     tmux attach -t "devenv"

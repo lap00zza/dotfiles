@@ -14,14 +14,9 @@ decorations = "Full"
 dynamic_padding = true
 startup_mode = "Maximized"
 
-#[colors]
-#draw_bold_text_with_bright_colors = true
-
-# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
-# This source code is licensed under the MIT license found in the license file.
-
+# Nord Theme with a custom background color
 [colors.primary]
-background = "#2e3440"
+background = "#2b2b2b"
 foreground = "#d8dee9"
 dim_foreground = "#a5abb6"
 
