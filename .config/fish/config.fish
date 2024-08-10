@@ -21,16 +21,16 @@ function devenv -d "Launch TMUX with my preferred layout containing btop, ping, 
     sleep 0.1
     tmux send-keys -t "devenv" "btop" Enter
 
-    tmux splitw -h -p 44
+    tmux splitw -h
     sleep 0.1
     tmux send-keys -t "devenv" "gping google.com" Enter
 
-    tmux splitw -v -p 75
+    tmux splitw -v
     sleep 0.1
     tmux send-keys -t "devenv" "cd ~/Projects" Enter
 
     tmux selectp -t 0
-    tmux splitw -v -p 25
+    tmux splitw -v
     sleep 0.1
     tmux send-keys -t "devenv" "node" Enter
 
