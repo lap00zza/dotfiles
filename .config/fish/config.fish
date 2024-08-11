@@ -14,6 +14,8 @@ set -U fish_greeting
 
 # Launches TMUX with my preferred layout
 function devenv -d "Launch TMUX with my preferred layout containing btop, ping, python3 and home_dir"
+    # start at home dir
+    cd
     # btop minimum size 80 x 24
     # NOTE: sleep 0.1 after selecting pane to make sure the pane's shell is ready
     tmux new-session -d -s "devenv"
@@ -21,18 +23,18 @@ function devenv -d "Launch TMUX with my preferred layout containing btop, ping, 
     sleep 0.1
     tmux send-keys -t "devenv" "btop" Enter
 
-    tmux splitw -h
+    tmux splitw -h -p 44
     sleep 0.1
-    tmux send-keys -t "devenv" "gping google.com" Enter
+    tmux send-keys -t "devenv" "ping google.com" Enter
 
-    tmux splitw -v
+    tmux splitw -v -p 75
     sleep 0.1
     tmux send-keys -t "devenv" "cd ~/Projects" Enter
 
     tmux selectp -t 0
-    tmux splitw -v
+    tmux splitw -v -p 25
     sleep 0.1
-    tmux send-keys -t "devenv" "node" Enter
+    tmux send-keys -t "devenv" "python3" Enter
 
     tmux selectp -t 3
     tmux attach -t "devenv"
